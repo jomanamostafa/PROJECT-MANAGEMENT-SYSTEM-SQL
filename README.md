@@ -1,7 +1,8 @@
 # PROJECT-MANAGEMENT-SYSTEM-SQL
+
 ## Screenshot
 
-![GUI Screenshot](GUI SC.png)
+![Project Management System GUI](GUI%20SC.jpeg)
 
 ```markdown
 # Project Management System GUI
