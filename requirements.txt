@@ -1,0 +1,9 @@
+# GUI framework
+customtkinter==5.2.1
+
+# MySQL connector
+mysql-connector-python==8.3.0
+
+# Standard Tkinter/ttk are built into Python, no need to install separately
+# But if you want themed widgets, you can add:
+ttkthemes==3.2.2
