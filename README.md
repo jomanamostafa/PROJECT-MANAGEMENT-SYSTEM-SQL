@@ -1,6 +1,6 @@
 # PROJECT-MANAGEMENT-SYSTEM-SQL
 
-## Screenshot
+## Screenshot ( THERE IS NO CONTENT IN THE PROJECT NAME AS I did not add project names in the database itself )
 
 ![Project Management System GUI](GUI%20SC.jpeg)
 
