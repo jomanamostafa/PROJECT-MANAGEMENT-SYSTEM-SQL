@@ -13,7 +13,7 @@ class AuditLog(db.Model):
     action = db.Column(db.String(64), nullable=False)
     entity_type = db.Column(db.String(64), nullable=False)
     entity_id = db.Column(db.String(64), nullable=True)
-    metadata = db.Column(db.Text, nullable=True)
+    audit_metadata = db.Column(db.Text, nullable=True)
     created_at = db.Column(db.DateTime, default=datetime.utcnow, nullable=False)
 
     user = db.relationship("User", back_populates="audit_logs")
