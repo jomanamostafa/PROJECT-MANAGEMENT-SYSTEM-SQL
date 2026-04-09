@@ -388,3 +388,15 @@ def generate_matplotlib_chart(df, chart_type, x_col=None, y_col=None):
             raise ValueError(f"Unknown chart type: {chart_type}")
 
         return _save_fig(fig)
+
+
+def export_dataframe_csv(df: pd.DataFrame, fileobj):
+    """Export dataframe to CSV."""
+    df.to_csv(fileobj, index=False)
+    fileobj.seek(0)
+
+
+def export_dataframe_excel(df: pd.DataFrame, fileobj):
+    """Export dataframe to Excel."""
+    df.to_excel(fileobj, index=False, engine="openpyxl")
+    fileobj.seek(0)
